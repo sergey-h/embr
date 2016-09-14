@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+      apiKey: "AIzaSyCxfM83pLghSJBxXVBb4bc-Lz8c5nLGKAE",
+      authDomain: "ember-d9a76.firebaseapp.com",
+      databaseURL: "https://ember-d9a76.firebaseio.com",
+      storageBucket: "ember-d9a76.appspot.com",
+    },
     modulePrefix: 'my-app',
     environment: environment,
     rootURL: '/',
